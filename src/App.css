@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+/* header footer */
+ .navbar{
+  width: 100%;
+  height: 73px;
+  background:  #0d1831;
+  display: flex;
+  align-items: center;
+}
+.footer{
+  background:  #0d1831;
+  height: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem
+}
+.footer span {
+  color: burlywood;
+}
+.navbar_appines{
+  margin: 0 30px;
+  font-family: 'Open Sans';
+  color: white;
+  font-size: 2rem;
+  display: inline-block;
+}
+/* end of header footer */
+
+
+/* form css */
+.login{
+  background-color: #f9fafb;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: 0;
+}
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+.form {
+  padding: 30px 40px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+} 
+/* end of form */
+
+/* employ css */
+.flex_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.column {
+  /* float: left; */
+  width: 30%;
+  padding: 0 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
+  width: 330px;
+}
+.card span{
+  color: #3498db;
+  margin-left: 10px !important;
+}
+
+.card img {
+  margin: 10px 32px !important;
+}
+
+.column :nth-child(1) {
+  margin-left: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.help-block {
+  color: red;
+}
+
+
+
